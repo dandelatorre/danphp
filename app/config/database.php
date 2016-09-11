@@ -2,9 +2,9 @@
     class db
     {
         private $_db_host = 'localhost';
-        private $_db_user = 'tadashi';
-        private $_db_pass = 'daniel';
-        private $_db_db_name = 'pos';
+        private $_db_user = '';
+        private $_db_pass = '';
+        private $_db_db_name = '';
         private $dbms;
         private $dbquery;
         private $_prtString;
